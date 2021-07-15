@@ -6,10 +6,10 @@ Architecture adapted from my node_mongoose_express_typescript base [project](htt
 
 ## Functional Requirements
 
-- A member has a name and a type the late one can be an employee or a contractor.
+- A team member has a name and a type the later one can be a full-time employee or a contractor.
   - If it's a contractor, we want to store the the duration of the contract as an integer.
-  - If it's an employee, we need to store their role, for instance: Software Engineer, Project Manager and so on.
-- A member can be tagged, for instance: C#, Angular, General Frontend, Seasoned Leader and so on. (Tags will likely be used as filters later, so keep that in mind)
+  - If it's a full-time employee, we need to store their job title, for instance: Software Engineer, Project Manager and so on.
+- A team member can be tagged, for instance: NodeJS, Angular, Ruby on Rails, Seasoned Leader and so on. Tags will be used as filters later.
 - We need to offer a REST CRUD for all the information above.
 
 ## Development
